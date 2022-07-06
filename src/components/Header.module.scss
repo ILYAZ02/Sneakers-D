@@ -1,0 +1,25 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+    a{
+        text-decoration: none;
+    }
+   
+    .cart{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        .basket{
+           color: rgba(0, 0, 0, 0.603);
+        
+            gap: 5px;
+            display: flex;
+            align-items: center;
+         
+        }
+    }
+   
+}
